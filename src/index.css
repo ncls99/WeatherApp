@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+
+body {
+  background-image: url(./assets/cloudyBackground.jpg);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.card {
+  min-width: 700px;
+  min-height: 400px;
+  background-color: rgba(245, 239, 230, 200);
+  opacity: 0.8;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin-bottom: 1px;
+}
+
+h1 {
+  text-align: center
+}
+
+.firstBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.secondBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.boxImg {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+.boxImg img {
+  width: 100%
+}
+
+.title {
+  text-align: center;
+}
+
+.subTitle {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+.infoBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.boxIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.boxIcon img {
+  width: 100%
+}
+
+.boxButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.boxButton button{
+  border-radius: 5px;
+  border: none;
+  background-color: #25316D;
+  color: white;
+  padding: 10px;
+}
